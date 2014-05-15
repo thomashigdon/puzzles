@@ -8,5 +8,5 @@ def parens(N):
             result.add(p[:pos] + "()" + p[pos:])
     return result
 
-for i in range(5):
+for i in range(7):
     print parens(i)
